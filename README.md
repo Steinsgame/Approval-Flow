@@ -20,8 +20,8 @@ From a detailed study on XYZ business requirement and current process, I have be
 2. Powerautomate
 
 
-### Solution Build
-#### Sharepoint List Build
+## Solution Build
+### Sharepoint List Build
 Creating the Sharepoint list, if you don't already have a sharepoint site, You have to create a sharepoint, to easily do that navigate to office.com, Click on apps, then proceed to click on sharepoint. At the top section you would the option to create a site. Once you have created the site, You need to create the list, By clicking on the new button. Your list should include, the following columns;
 1. Items (Text Data Type)
 2. Request Date (Date Data type)
@@ -35,7 +35,7 @@ Creating the Sharepoint list, if you don't already have a sharepoint site, You h
 
 You can set a custom view and set that as the default, for a better experience.
 
-#### Flow Build
+### Flow Build
 Kindly find below the flow Chart and detailed explanation of each section
 ![The full Flow Screenshot](Approval-Pictures/Approval-Solution.png)
 
