@@ -46,9 +46,12 @@ equals(triggerBody()?['ApprovalStatus']?['Value'],'Rejected') Checks if the appr
 Hence this are the two reasons why the flow should be triggered, Someone must either submit a new request or edit a rejected request.
 <img src="Approval-Pictures/Trigger-Condition.png" alt="Trigger Condtion look" width="400" height="400">
 3. Stop sharing an Item or a file action (When someone creates an approval, the person shouldn't interupt the process and thus cause an endless loop, this ensures once the employee has made the request, the approval goes on forward, but the employee wouldn't edit or update until the request has been accepted or rejected, for this to be done effectively, a configuration was done on sharepoint, by clicking on the list setting and navigating to permission for the list).
+
 4. Update Item: Inside this section we would update the items of all the columns with the dynamic contents from the trigger.
+<img src="Approval-Pictures/Update-Item.png" alt="Trigger Condtion look" width="400" height="400">
 5. Grant access to a folder action (In this section we would specifically be using this action to grant access to a specific user (the author) and the access would be to view.
 6. Initialize Variable (This is used to create a variable array for the attachment)
+<img src="Approval-Pictures/Attachment-Flow.png" alt="Trigger Condtion look" width="400" height="400">
 7. Get attachments from sharepoint action in Powerautomate
 8. Apply to each action which contains (Get attachment content and append to array variable loop) this is used to attach the attachments into an array if they are more than one attachment
 9. Start and Wait for an Approval action (Everyone must approve the flow, and input the required people in the assigned to column)
