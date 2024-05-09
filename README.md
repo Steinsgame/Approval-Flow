@@ -37,6 +37,7 @@ You can set a custom view and set that as the default, for a better experience.
 
 #### Flow Build
 Kindly find below the flow Chart and detailed explanation of each section
+![The full Flow Screenshot](images/Approval-Pictures/Approval-Solution.png)
 
 1. Trigger- Automated Cloud flow, When an item is modified in sharepoint trigger selected
 2. Trigger Condition- Because we are going to need the flow to run on everytime someone modifies the list, we need to specify a condition that triggers the flow, to avoid the flow from becoming an endless loop running. Two Conditions set - 
